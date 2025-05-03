@@ -58,21 +58,21 @@
 
         default_layer {
             bindings = <
-&none  &none             &none             &none          &none               &none  &none                                                                             &none           &none  &none                &none          &none              &none              &none
-&none  &kp Q             &kp W             &kp F          &kp P               &kp B  &none                                                                             &none           &kp J  &kp L                &kp U          &kp Y              &kp SQT            &none
-&none  &u_mt LEFT_GUI A  &u_mt LEFT_ALT R  &u_mt RCTRL S  &u_mt LEFT_SHIFT T  &kp G  &none           &none          &none            &none          &none              &none           &kp M  &u_mt RIGHT_SHIFT N  &u_mt RCTRL E  &u_mt RIGHT_ALT I  &u_mt RIGHT_GUI O  &none
-&none  &kp Z             &kp X             &kp C          &kp D               &kp V                                 &none            &none                                             &kp K  &kp H                &kp COMMA      &kp DOT            &kp FSLH           &none
-&none  &none             &none             &none          &none                      &u_lt 4 ESCAPE  &u_lt 1 SPACE  &u_lt 5 TAB      &u_lt 3 ENTER  &u_lt 6 BACKSPACE  &u_lt 2 DELETE         &none                &none          &none              &none              &none
+&none  &none             &none             &none          &none               &none  &none                                                                              &none          &none  &none                &none          &none              &none              &none
+&none  &kp Q             &kp W             &kp F          &kp P               &kp B  &none                                                                              &none          &kp J  &kp L                &kp U          &kp Y              &kp SQT            &none
+&none  &u_mt LEFT_GUI A  &u_mt LEFT_ALT R  &u_mt RCTRL S  &u_mt LEFT_SHIFT T  &kp G  &none              &none           &none            &none           &none          &none          &kp M  &u_mt RIGHT_SHIFT N  &u_mt RCTRL E  &u_mt RIGHT_ALT I  &u_mt RIGHT_GUI O  &none
+&none  &kp Z             &kp X             &kp C          &kp D               &kp V                                     &none            &none                                         &kp K  &kp H                &kp COMMA      &kp DOT            &kp FSLH           &none
+&none  &none             &none             &none          &none                      &u_lt 4 BACKSPACE  &u_lt 1 DELETE  &u_lt 5 TAB      &u_lt 3 ESCAPE  &u_lt 6 ENTER  &u_lt 2 SPACE         &none                &none          &none              &none              &none
             >;
         };
 
         nav {
             bindings = <
-&trans  &trans        &trans        &trans     &trans          &trans  &trans                                                &trans      &trans    &trans         &trans       &trans     &trans    &trans
-&trans  &trans        &trans        &trans     &trans          &trans  &trans                                                &trans      &trans    &trans         &trans       &trans     &trans    &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans      &trans     &trans         &trans      &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp CAPS  &trans
-&trans  &trans        &trans        &trans     &trans          &trans                  &trans      &trans                                &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp INS   &trans
-&trans  &trans        &trans        &trans     &trans                  &trans  &trans  &trans      &kp ENTER  &kp BACKSPACE  &kp DELETE            &trans         &trans       &trans     &trans    &trans
+&trans  &trans        &trans        &trans     &trans          &trans  &trans                                      &trans  &trans    &trans         &trans       &trans     &trans    &trans
+&trans  &trans        &trans        &trans     &trans          &trans  &trans                                      &trans  &trans    &trans         &trans       &trans     &trans    &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp CAPS  &trans
+&trans  &trans        &trans        &trans     &trans          &trans                  &trans      &trans                  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp INS   &trans
+&trans  &trans        &trans        &trans     &trans                  &trans  &trans  &trans      &trans  &trans  &trans            &trans         &trans       &trans     &trans    &trans
             >;
         };
 
